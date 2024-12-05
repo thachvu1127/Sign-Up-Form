@@ -51,10 +51,12 @@ main {
     display: flex;
     width: 100vw;
     height: 100vh;
+    background-color: #ECEBDE;
+    
 }
 
 .background-container {
-    background-image: url("../img/keshan-jalota-3xAC6_RZBKw-unsplash.jpg");
+    background-image: url(../img/lexi-laginess-TTUvyE7MwkM-unsplash.jpg);
     width: 40vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,11 +69,10 @@ main {
 .form-container {
     display: flex;
     width: 60vw;
-    border: 1px solid red;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: beige;
+    
    
 }
 
@@ -84,7 +85,6 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 
@@ -93,14 +93,16 @@ main {
     height: 40vh;
     width: 100%;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
 }
 .form > h4 {
     margin-left: 80px;
+    position: relative;
+    top: 20px;
 }
 
 .form-main {
-    margin-top: 20px;
+  margin-top: 20px;;
     display: flex;
 }
 
@@ -130,9 +132,31 @@ input:invalid {
 
 .create {
     height: 30vh;
+    width: 100%;
+    padding: 20px;
 }
 
+.create div {
+  padding: 20px;
+  padding-left: 70px;
+}
 
+button {
+  padding: 10px;
+  width: 250px;
+  background-color: #596d48;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
 
+span {
+  color: #596d48;
+  font-size: 1.1rem;
+}
 
-
+#error {
+  margin-top: 10px;
+  font-size: .8rem;
+  color: red;
+}

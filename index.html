@@ -19,7 +19,7 @@
             </div>
             <div class="form">
                 <h4 >Your Next <em>Adventure</em> Awaits!</h4>
-                <form action="#" method="post" class="form-main">
+                <form action="#" method="post" class="form-main" id="main-form">
                     <div class="form-divs">
                         <div>
                             <label for="fName">FIRST NAME</label>
@@ -45,14 +45,21 @@
                             <input type="tel" id="phone" placeholder="Phone Number">
                         </div>
                         <div>
-                            <label for="password">CONFIRM PASSWORD</label>
-                            <input type="password" id="password" name="password" required>
+                            <label for="cPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="cPassword" name="cPassword" required>
                         </div>
                     </div>
                 </form>
             </div>
                 
-            <div class="create">world</div>
+            <div class="create">
+                <div class="button-container">
+                    <button type="submit" form="main-form">Create Account</button>
+                </div>
+                <div>
+                    <p>Already have an Account? <a href=""><span>Log In</span></a></p>
+                </div>
+            </div>
         </div>
         
     
